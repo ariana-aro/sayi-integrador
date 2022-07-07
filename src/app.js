@@ -18,7 +18,7 @@ const routerMain = require('./routes/main');
 
 app.use(routerMain)
 
-/*app.get("/", (req, res) => {
+app.get("/", (req, res) => {
     let htmlInfo = path.resolve(__dirname, "./views/intro.html");
     res.sendFile(htmlInfo);
 })
@@ -41,4 +41,4 @@ app.get("/contact", (req, res) => {
 app.get("/home", (req, res) => {
     let htmlInfo = path.resolve(__dirname, "./views/home.html");
     res.sendFile(htmlInfo);
-})*/
+})

@@ -7,15 +7,16 @@
 .header{
   display: flex;
   flex-direction: column;
-  padding: 5px;
-  background-color: rgb(212, 193, 158);
-  width: 95%;
+  padding: 10px;
+  background-color: #deb887;
+  width: 100%;
   margin: 0 auto;
 }
 
 .headerMain{
   display: flex;
   flex-direction: column;
+  
 }
 
 @media (min-width: 361px){
@@ -66,20 +67,19 @@
 
 
   .buscador{
-    background-color: #ebebeb;
+    background-color: #f7f7f7;
     border: 1px solid #ebebeb;
-    border-radius: 5px;
+    border-radius: 100px;
     padding: 10px;
     padding-right: 22px;
     width: 100%;
-    outline: 0;
 }
 
 .botonBuscar{
     color: #666;
     position: absolute;
-    top: 5px;
-    right: 10px;
+    top: 10px;
+    right: 15px;
 }
 
 nav{
@@ -136,7 +136,7 @@ body{
     font-family: 'Oswald', sans-serif;
     margin: 0;
     padding: 0;
-    background: #f1f1f1;
+    background: #ece9e9;
     box-sizing: border-box;
 }
  
@@ -144,7 +144,7 @@ body{
   display: flex;
   justify-content: space-around;
   list-style: none;
-  background-color: #ebc19b;
+  background-color: #deb887;
   text-align: center;
   padding: 10px;
   margin-left: 23px;
@@ -255,7 +255,7 @@ main{
 
 .botonesSlide button{
   width: 5%;
-  background-color: rgb(212, 193, 158);
+  background-color: #deb887;
   border-radius: 10%;
 }
 
@@ -263,17 +263,19 @@ main{
   font-family:Verdana, Geneva, Tahoma, sans-serif;
   display: flex;
   justify-content: center;
-  height: 80px;
+  height: 40px;
+  
 }
 
 .footerContenido{
-  width: 95%;
+  width: 100%;
   margin: 0 auto;
-  background-color: rgb(212, 193, 158);
+  background-color: #deb887;
   display: flex;
   align-items:flex-end;
   justify-content: center;
-  padding: 2px;
+  padding: 10px;
+
 }
 
 .footerContenido p{
